@@ -1,0 +1,27 @@
+[qmt-current]
+# Qmailtoaster current repository
+name=QMT Current Repository
+mirrorlist=file:///etc/yum.repos.d/qmt-current-mirrors
+#mirrorlist=https://raw.githubusercontent.com/qmtoaster/mirrorlist/master/current
+#baseurl=ftp://ftp.qmailtoaster.com/pub/repo/qmt/CentOS/$releasever/current/$basearch/
+enabled=1
+gpgcheck=0
+priority=7
+[qmt-testing]
+# Qmailtoaster testing repository
+name=QMT Testing Repository
+mirrorlist=file:///etc/yum.repos.d/qmt-testing-mirrors
+#mirrorlist=https://raw.githubusercontent.com/qmtoaster/mirrorlist/master/testing
+#baseurl=ftp://ftp.qmailtoaster.com/pub/repo/qmt/CentOS/$releasever/testing/$basearch/
+enabled=0
+gpgcheck=0
+priority=7
+[qmt-devel]
+# Qmailtoaster development repository
+name=QMT Development Repository
+mirrorlist=file:///etc/yum.repos.d/qmt-devel-mirrors
+#mirrorlist=https://raw.githubusercontent.com/qmtoaster/mirrorlist/master/devel
+#baseurl=ftp://ftp.qmailtoaster.com/pub/repo/qmt/CentOS/$releasever/devel/$basearch/
+enabled=0
+gpgcheck=0
+priority=7
